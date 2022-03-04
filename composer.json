@@ -1,0 +1,19 @@
+{
+    "name": "xputerax/uncringe-webapp",
+    "description": "Uncringe web app",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "league/route": "^5.1",
+        "league/container": "^4.2",
+        "laminas/laminas-httphandlerrunner": "^2.1",
+        "league/plates": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
